@@ -1,0 +1,9 @@
+example/
+*.log
+.vscode/
+.gitignore
+.git/
+node_modules/
+*.test.*
+*.spec.*
+*.DS_Store
