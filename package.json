@@ -1,6 +1,6 @@
 {
 	"name": "react-pdf-cropper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.js",
 	"description": "A fast, modular React library for cropping, watermarking and downloading regions of PDFs.",
 	"author": "Shivam Kumar",
@@ -10,5 +10,20 @@
 	},
 	"peerDependencies": {
 		"react": "^18.0.0"
-	}
+	},
+	"keywords": [
+		"react",
+		"pdf",
+		"cropper",
+		"pdf-cropper",
+		"react-pdf",
+		"pdf-viewer",
+		"pdf-screenshot",
+		"pdf-watermark",
+		"canvas",
+		"document",
+		"react-component",
+		"pdf-editor",
+		"pdf-tools"
+	  ]
 }
