@@ -142,9 +142,12 @@ export default App;
 
 A full-featured example React app is included in the [example/](https://github.com/shivam27k/react-pdf-cropper) folder of this repo.
 
+
 -   Open it, run `npm install`, then `npm run dev`.
 
 -   Try cropping, previewing, downloading, and watermarking on any PDF (don't forget to install the package first).
+
+There is an example video in the `public` folder for your reference as well.
 
 ## 💡 FAQ
 

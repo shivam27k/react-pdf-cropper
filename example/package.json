@@ -16,7 +16,8 @@
 		"pdfjs-dist": "^3.11.174",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
-		"react-pdf": "^9.2.1"
+		"react-pdf": "^9.2.1",
+		"react-pdf-cropper": "^1.0.1"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.25.0",
