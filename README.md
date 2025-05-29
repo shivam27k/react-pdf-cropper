@@ -100,17 +100,17 @@ export default App;
 
 ### `<PDFCropperOverlay />`
 
-| Props            | Type     | Required | Description                                                                            |
-| ---------------- | -------- | -------- | -------------------------------------------------------------------------------------- |
-| `containerRef`   | `ref`    | ✔        | Ref to the DOM element containing your PDF page canvas                                 |
-| `isCropping`     | `bool`   | ✔        | Should the cropping overlay be active? (controlled from your app)                      |
-| `setIsCropping`  | `func`   | ✔        | Function to close/hide cropping overlay (used by cancel, after crop, etc.)             |
-| `currentPage`    | `number` | ✔        | The current page number (1-based, not zero-indexed)                                    |
-| `onCrop`         | `func`   |          | Callback called with the cropped image `dataURL ((dataUrl) => {})`                     |
-| `getHandlers`    | `func`   |          | Callback giving you crop/cancel handlers (`({ handleSaveClick, stopCropping }) => {}`) |
-| `watermarkImage` | `string` |          | (Optional) URL/data URL for watermark logo/image                                       |
-| `watermarkProps` | `object` |          | (Optional) `{ opacity, tileWidth, tileHeight }` for watermark tiling                   |
-| `watermarkImage` | `bool`   |          | Show built-in crop/cancel buttons in cropbox? (default: `true`)                        |
+| Props                | Type     | Required | Description                                                                            |
+| -------------------- | -------- | -------- | -------------------------------------------------------------------------------------- |
+| `containerRef`       | `ref`    | ✔        | Ref to the DOM element containing your PDF page canvas                                 |
+| `isCropping`         | `bool`   | ✔        | Should the cropping overlay be active? (controlled from your app)                      |
+| `setIsCropping`      | `func`   | ✔        | Function to close/hide cropping overlay (used by cancel, after crop, etc.)             |
+| `currentPage`        | `number` | ✔        | The current page number (1-based, not zero-indexed)                                    |
+| `onCrop`             | `func`   |          | Callback called with the cropped image `dataURL ((dataUrl) => {})`                     |
+| `getHandlers`        | `func`   |          | Callback giving you crop/cancel handlers (`({ handleSaveClick, stopCropping }) => {}`) |
+| `watermarkImage`     | `string` |          | (Optional) URL/data URL for watermark logo/image                                       |
+| `watermarkProps`     | `object` |          | (Optional) `{ opacity, tileWidth, tileHeight }` for watermark tiling                   |
+| `showDefaultButtons` | `bool`   |          | Show built-in crop/cancel buttons in cropbox? (default: `true`)                        |
 
 ---
 
@@ -141,7 +141,6 @@ export default App;
 ## 📁 Example Project
 
 A full-featured example React app is included in the [example/](https://github.com/shivam27k/react-pdf-cropper) folder of this repo.
-
 
 -   Open it, run `npm install`, then `npm run dev`.
 
